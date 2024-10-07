@@ -1,0 +1,10 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
+
+// import style
+import "./styles/style.css";
+// Parent Component
+import NotesApp from "./components/NotesApp";
+
+const root = createRoot(document.getElementById("root"));
+root.render(<NotesApp />);

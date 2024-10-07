@@ -1,0 +1,23 @@
+{
+  "name": "NOTES-APP-REACT",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://github.com/Frandz78/NOTES-APP-REACT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^4.5.5"
+  }
+}
